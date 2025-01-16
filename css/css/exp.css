@@ -1,0 +1,109 @@
+/* Container for the experience section */
+.experience {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    font-size: small;
+}
+
+.experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.experience-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.experience-box:hover {
+    transform: scale(1.05);
+    border-color: #FFD700; /* Yellow color */
+}
+
+.experience h3 {
+    margin-top: 0;
+    color: #333;
+    border-bottom: 2px solid #FFD700; /* Yellow underline */
+    padding-bottom: 5px;
+    font-size: 1em;
+    font-weight: bold
+}
+
+.experience p {
+    margin: 8px 0;
+    color: #555;
+    font-size: 1em;
+}
+
+.experience a {
+    text-align: center;
+    margin: 8px 0;
+    color: #0004ff;
+    font-size: 1.2em;
+}
+
+.experience-title{
+    font-weight: bold
+}
+
+
+.swiper-wrapper h1, p {
+    color: #333;
+}
+
+
+
+#testimonials-carousel .item-1 .testimonials-info {
+    background-color: #ffae00; /* First box color */
+}
+
+#testimonials-carousel .item-2 .testimonials-info {
+    background-color: #ff6969; /* Second box color */
+}
+
+#testimonials-carousel .item-3 .testimonials-info {
+    background-color: #ff0000; /* Third box color */
+}
+
+#testimonials-carousel .item-4 .testimonials-info {
+    background-color: #35fdaa; /* Fourth box color */
+}
+
+/* Optional: Add some padding and border-radius for better appearance */
+.testimonials-info {
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff; /* Text color for better contrast */
+}
+
+#testimonials-carousel .testimonials-info {
+    background-color: #f4a261; /* You can keep or remove this if you're using individual colors */
+    padding: 20px;  /* Consistent padding */
+    border-radius: 15px; /* Rounded corners */
+    color: #fff; /* Text color for better contrast */
+    min-height: 250px; /* Ensures all boxes have the same height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#testimonials-carousel .testimonials-info h6 {
+    margin-bottom: 15px;
+}
+
+#testimonials-carousel .testimonials-info p {
+    flex-grow: 1; /* Makes the content expand to fill the box */
+}
+
+#testimonials-carousel .testimonials-info span {
+    margin-top: 15px;
+    align-self: flex-end; /* Aligns the 'More' link to the bottom */
+}
